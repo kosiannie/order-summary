@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 25em;
+    height: 38em;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;  
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+    margin: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-weight: 900;
+}
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 1em;
+    padding: 0 10px 0 5px;
+    font-weight: 500;
+}
+
+.annual {
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    height: 4.5em;
+    margin: 1.5em 0;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.annual img {
+    width: 2em;
+    height: 2em;
+}
+
+.annual-text {
+    font-size: 0.8em;
+    padding-left: 0.5em;
+    margin-left: -6em;
+    color: hsl(223, 47%, 23%);
+}
+.annual-text h2 {
+    font-weight: 700;
+}
+
+.annual-text p {
+    margin-top: 0.2em;
+    margin-left: -4em;
+    font-size: 0.8em;
+}
+
+a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 0.67em;
+}
+
+.btn-1 {
+    background-color: hsl(245, 75%, 52%);
+    width: 100%;
+    padding: 0.7em 0;
+    margin-bottom: 1.5em;
+    border: none;
+    border-radius: 0.675em;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 10px 10px 30px hsl(245, 75%, 52%);
+}
+.btn-1:hover {
+    background: none;
+    border: none;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+.btn-2 {
+    width: 100%;
+    background: none;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 1em;
+    font-weight: 600;
+}
+.btn-2:hover {
+    background: none;
+    color: hsl(245, 75%, 52%);
+    padding-bottom: 1em;
+}
+
+@media (max-width: 600px) {
+    body { 
+        background-image: url("pattern-background-mobile.svg");
+        background-color: hsl(224, 71%, 15%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+}
+}
